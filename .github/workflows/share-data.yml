@@ -5,7 +5,7 @@ on: [push]
 jobs:
   job_1:
     name: Add 3 and 7
-    runs-on: jhyu-ubuntu-16
+    runs-on: Linux
     steps:
       - shell: bash
         run: |
