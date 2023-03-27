@@ -2,11 +2,11 @@ name: yes24_crawler
 
 on:
   schedule:
-    - cron: '40 0 * * *'
+    - cron: '45 0 * * *'
 
 jobs:
   build:
-    runs-on: jhyu-ubuntu-16
+    runs-on: Linux
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
